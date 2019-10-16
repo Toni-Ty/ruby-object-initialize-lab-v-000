@@ -11,3 +11,6 @@ def name
   @name
   end
 end
+
+gwen = Person.new("Gwen")
+"Gwen"
