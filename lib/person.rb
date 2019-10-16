@@ -1,4 +1,3 @@
-require 'pry'
 class Person
   def initialize(name)
     @name = name
@@ -13,6 +12,3 @@ def name
   end
 end
 
-gwen = Person.new("Gwen")
-"Gwen"
-binding.pry
